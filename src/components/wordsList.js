@@ -16,7 +16,7 @@ class WordsList extends React.Component {
       <Col className="align-center">
         <h2 className="padding0"><Label bsStyle="info">Words List</Label></h2>
         <br />
-        {this.props.words.map((word, index)=> <h4 key={index}>{word.word} {word.wordFound ? <Glyphicon glyph="ok" /> : null }</h4>)}
+        {this.props.words.map((word, index)=> <p key={index}>{word.word} {word.wordFound ? <Glyphicon glyph="ok" /> : null }</p>)}
       </Col>
     );
   }
