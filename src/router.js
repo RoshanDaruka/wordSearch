@@ -10,7 +10,6 @@ const router = (
   <Router onUpdate={() => window.scrollTo(0, 0)} history={history}>
     <Route path="/" component={App}>
       <IndexRoute component={WordSearchGameApp}/>
-      <Route path="*" component={NotFound}/>
     </Route>
   </Router>
 );
