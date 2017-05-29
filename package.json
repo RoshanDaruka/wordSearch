@@ -4,7 +4,7 @@
   "description": "Word Search web appp",
   "keywords": ["Word Search", "GAME"],
   "main": "index.js",
-  "homepage": "https://RoshanDaruka.github.io/wordSearch",
+  "homepage": "https://RoshanDaruka.github.io/wordsearch",
   "repository": {
     "type": "git",
     "url": "https://github.com/RoshanDaruka/WordSearch"
@@ -14,7 +14,7 @@
     "build-dev": "webpack --config webpack.dev.config.js",
     "build-prod": "webpack -p --config webpack.prod.config.js",
     "test": "mocha --recursive --compilers js:babel-register --require babel-polyfill --require ignore-styles",
-    "test-watch": "npm test -- --watch",
+    "test-watch": "npm test -- --watch"
   },
   "babel": {
     "presets": [
