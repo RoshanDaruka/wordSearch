@@ -6,7 +6,6 @@ import throttle from "lodash/throttle";
 import { store } from "./store.js";
 import { router } from "./router.js";
 
-import './stylesheets/main.js';
 
 // render the main component
 ReactDOM.render(
