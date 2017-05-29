@@ -48,7 +48,7 @@ class GameSetupBody extends React.Component {
     return (
       <FormGroup>
         <ControlLabel>Number of Players</ControlLabel>
-        <FormControl value="0" componentClass="select" onChange={this.onPlayerChange} placeholder="select">
+        <FormControl componentClass="select" onChange={this.onPlayerChange} placeholder="select">
             <option>2</option>
             <option>3</option>
             <option>4</option>
