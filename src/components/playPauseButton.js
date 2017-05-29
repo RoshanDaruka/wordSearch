@@ -14,7 +14,7 @@ class PlayPauseButton extends React.Component {
   }
   render() {
     return (
-      <Image className="pointer" onClick={this.handleGamePause} src="/media/playPauseButton.jpg" className="playPauseButton" rounded />
+      <Image className="pointer" onClick={this.handleGamePause} src="./public/media/playPauseButton.jpg" className="playPauseButton" rounded />
     );
   }
 }
